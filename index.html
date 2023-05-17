@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookTrackList</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./book.js" async></script>
+    <script src="https://kit.fontawesome.com/65e9ac7cab.js" crossorigin="anonymous"></script>
+<body>
+    <div class="moon">
+        <i id="moon" class="fa fa-moon-o" aria-hidden="true"></i>
+    </div>
+    <section class="container">
+        <div class="main">
+            <div class="header">
+                <h1>BOOK  <i class="fa fa-book" aria-hidden="true" style="color: plum;"></i> LISTS</h1>
+            </div>
+            <div class="img-container">
+                <img class="img" src="./image/header-img.webp" alt="">
+            </div>
+        </div>
+        <div class="required">
+            <h5>All fields are required</h5>
+        </div>
+                <div class="form-input" >
+                    <form action="" >
+                        <label for="title">Title</label><br>
+                        <input type="text" id="title" required><br>
+                        <label for="author">Author</label><br>
+                        <input type="text" id="author" required><br>
+                        <label for="isbn">ISBN</label><br>
+                        <input type="text" id="isbn" required><br>
+                        <input type="button" id="submit" value="SUBMIT" style="background-color: black; color: white;">
+                    </form>
+                </div>
+        
+                <div class="table-head">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                            <th >Title</th>
+                            <th>Author</th>
+                            <th>ISBN</th>
+                            <th></th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                             <!-- <tr>
+                                <td>The gods are not to blame</td>
+                                <td>Chinua Achebe</td>
+                                <td>ISN1234RB8/3</td>
+                                <td><button>Remove</button></td>
+                            </tr>  -->
+                        </tbody>
+                    </table>
+                </div>
+    </section>
+   
+</body>
+</html>

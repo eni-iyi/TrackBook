@@ -1,0 +1,92 @@
+.container{
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.header{
+    font-size: 40px;
+}
+  .img{
+     width: 120px;
+    height: 100px;
+    margin-top: -40px;
+    border-radius: 50%;   
+    
+} 
+.img-container{
+    text-align: center;
+}
+.moon{
+    cursor: pointer;
+    float: right;
+    border: 2px solid plum;
+    padding: 5px;
+    border-radius: 8px;
+    width: 50px;
+    margin-right: 50px;
+    display: flex;
+    color: orange;
+}
+.active{
+    justify-content:end
+}
+
+.required{
+    display: none;
+    width: 40%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.form-input{
+    background-color: plum;
+    border-radius: 10px;
+    width: 40%;
+    margin: 0px auto;
+    padding: 10px;
+}
+input{
+    width: 90%;
+    margin: 10px auto ;
+    /* margin-bottom: 10px; */
+    padding: 5px;
+    border-radius: 8px;
+    border: none;
+}
+label{
+    text-align: left;
+}
+.table-head{
+    overflow-x: auto;
+    width: 80%; 
+}
+table{
+    min-width: 600px;
+    border: 1px solid ;
+    margin-top: 20px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    
+}
+tr,th,td{
+    border: 2px solid;
+    border-color: plum;
+}
+
+@media (max-width:768px) {
+    .form-input{
+        width: 80%;
+    }
+}
+
+/* Dark mode */
+.darkMode{
+    background: black;
+    color: white;
+}
